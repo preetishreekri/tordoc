@@ -1,0 +1,244 @@
+@media (min-width:200px) and (max-width:450px) {
+.form-wrapper #search {padding: 10px 5px;
+float: left;
+font-family: "OpenSansLight";
+font-size: 14px;
+box-shadow: none;
+border: 1px solid #3D61AA; width:96%; height:15px;}
+.form_box{ width:98%; height:auto; float:left; padding:1%;}
+.form_box2{ width:98%; height:auto; float:left;  padding:1%; margin-left:0px;}
+.form_box3{ width:98%; height:auto; float:left; padding:1%;}
+.mobile_form{height:15px;
+padding: 10px 5px;
+float: left;
+font-family: "OpenSansLight";
+font-size: 14px;
+box-shadow: 0px 1px 1px #DDD inset, 0px 1px 0px #FFF;
+box-shadow:none;
+ width:96%; border:none;  border:1px solid #d0d0d0;}
+ 
+ .mobile_form2{height:15px;
+padding: 10px 5px;
+float: left;
+font-family: "OpenSansLight";
+font-size: 14px;
+box-shadow: 0px 1px 1px #DDD inset, 0px 1px 0px #FFF;
+box-shadow:none;
+ width:96%; border:none;  border:1px solid #d0d0d0;}
+.mobile_menu{ display:block; position:absolute; z-index:999; top:10px; left:10px;}
+
+#footer_box{ width:98%; padding-left:2%;}
+#footer2_box{ width:98%; margin-left:2%;}
+#bottom_content{ width:100%;}
+#bottom_contentleft{ width:98%; margin-left:1%;}
+#bottom_contentright{ width:98%; margin-left:1%;}
+#topbar_content{width:100%;}
+#logo{ width:60%; margin-left:20%;}
+#head_search{ width:90%; margin-left:5%;}
+#menu1{ display:none;}
+
+#content{ width:100%;}
+#content_boxleft{ width:90%; margin-left:5%; display:none;}
+ #content_boxright{ width:100%;}
+  #rightcontent{ width:90%; margin-left:5%; box-shadow:0px 0px 6px #ccc;}
+  .right_imgbox{ width:100px;}
+  
+   .doctor_imgbox1{ width:100%; text-align:center;}
+   .doctor_imgbox1 img{ width:40%;}
+   
+  .right_textbox{ width:90%; text-align:center; margin-left:5%;}
+  .doctor_view{ width:150px; text-align:left;}
+  .right_textbox2{ width:100%;}
+  .clinic img{width:30px;}
+  .appointment{width:100%; background:#ccc;}
+  #content_righthead{ display:none;}
+  
+  .day{float:left; margin-left:20px; margin-top:15px;}
+  .time{float:left; max-width:220px; margin-left:20px; margin-top:15px;}
+  .name{ margin-left:15px;}
+  #services_left{ width:100%;}
+  #services_right{ width:100%; margin-left:0px;}
+  .appointment_table{width:88%; margin-left:4%;}
+  .appointment_date{height:25px; width:90%;}
+  .appointment_date2{ height:25px; width:90%; float:left; margin-top:10px;}
+  .search_form{ width:96%;}
+  .input_box{ margin-left:0px;}
+  .mobile_menu3{ display:block;}
+  .mobile_menu3box{width:90%;}
+}
+	
+@media (min-width:450px) and (max-width:850px){
+.form-wrapper #search {padding: 10px 5px;
+float: left;
+font-family: "OpenSansLight";
+font-size: 14px;
+box-shadow: none;
+border: 1px solid #3D61AA; width:96%; height:15px;}
+
+.mobile_form{height:15px;
+padding: 10px 5px;
+float: left;
+font-family: "OpenSansLight";
+font-size: 14px;
+box-shadow: 0px 1px 1px #DDD inset, 0px 1px 0px #FFF;
+box-shadow:none;
+width:94%; border:none;  border:1px solid #d0d0d0;}
+
+ .mobile_form2{height:15px;
+padding: 10px 5px;
+float: left;
+font-family: "OpenSansLight";
+font-size: 14px;
+box-shadow: 0px 1px 1px #DDD inset, 0px 1px 0px #FFF;
+box-shadow:none;
+width:65%; border:none;  border:1px solid #6d6d6d;}
+.mobile_menu{ display:block; position:absolute; z-index:999; top:10px; left:10px;}
+
+#footer_box{ width:98%; padding-left:2%;}
+#footer2_box{ width:98%; margin-left:2%;}
+#bottom_content{ width:100%;}
+#bottom_contentleft{ width:98%; margin-left:1%;}
+#bottom_contentright{ width:98%; margin-left:1%;}
+#topbar_content{width:100%;}
+#logo{ width:40%; margin-left:30%;}
+#head_search{ width:90%; margin-left:5%;}
+#menu1{ display:none;}
+
+#content{ width:100%;}
+ #content_boxleft{ width:90%; margin-left:5%; display:none;}
+ #content_boxright{ width:100%;}
+ #rightcontent{ width:90%; margin-left:5%;}
+ .right_imgbox{ width:100px;}
+ 
+  .doctor_imgbox1{ width:100%; text-align:center;}
+   .doctor_imgbox1 img{ width:30%;}
+ 
+ .right_textbox{ width:100%; text-align:center;}
+  .doctor_view{ width:200px; text-align:left; margin-left:15px;}
+ .right_textbox2{ width:100%;}
+ .clinic img{width:40px;}
+ .appointment{width:100%; background:#ccc;}
+ #content_righthead{ display:none;}
+  #services_left{ width:100%;}
+  #services_right{ width:100%; margin-left:0px;}
+  .appointment_table{width:90%; margin-left:4%;}
+  .appointment_date{height:25px; width:90%;}
+  .appointment_date2{ height:25px; width:90%; float:left;}
+    .search_form{ width:96%;}
+	.input_box{ margin-left:0px;}
+	.mobile_menu3{ display:block;}
+	.mobile_menu3box{width:40%;}
+}
+
+
+@media (min-width:851px) and (max-width:1400px) {
+.form-wrapper #search {padding: 10px 5px;
+float: left;
+font-family: "OpenSansLight";
+font-size: 14px;
+box-shadow: none;
+border: 1px solid #3D61AA; width:300px; height:10px;}
+.mobile_form{height:10px;
+padding: 10px 5px;
+float: left;
+font-family: "OpenSansLight";
+font-size: 14px;
+box-shadow: 0px 1px 1px #DDD inset, 0px 1px 0px #FFF;
+box-shadow:none;
+width:150px; border:none; border:1px solid #d0d0d0;}
+
+ .mobile_form2{height:10px;
+padding: 10px 5px;
+float: left;
+font-family: "OpenSansLight";
+font-size: 14px;
+box-shadow: 0px 1px 1px #DDD inset, 0px 1px 0px #FFF;
+box-shadow:none;
+ width:325px; border:none;  border:1px solid #d0d0d0;}
+ .mobile_menu{ display:none;}
+ 
+ #footer_box{ width:960px;}
+ #footer2_box{ width:960px;}
+ #bottom_content{ width:960px;}
+ #bottom_contentleft{ width:460px;}
+ #bottom_contentright{ width:460px;}
+ #topbar_content{width:960px;}
+ #logo{ width:150px;}
+ #head_search{ width:450px; display:block;}
+ #menu1{ display:block;}
+ 
+ #content{ width:960px;}
+  #content_boxleft{ width:200px; display:block;}
+  #content_boxright{ width:760px;}
+  #rightcontent{ width:100%;}
+  .right_imgbox{ width:110px;}
+  
+  .right_textbox{max-width:350px; margin-left:15px;}
+  .right_textbox2{ width:200px;}
+  .clinic img{width:50px;}
+  .appointment{width:500px; background:#ccc;}
+  #content_righthead{ display:block;}
+  
+  .time{float:right; max-width:220px;}
+   #services_left{ width:350px;}
+   #services_right{ width:350px; margin-left:20px;}
+   .appointment_table{width:380px; margin-left:70px;}
+   .appointment_date{height:25px; width:40%;}
+   .appointment_date2{ height:25px; width:20%; float:right;}
+     .search_form{ width:400px;}
+	 .input_box{ margin-left:10px;}
+	 .mobile_menu3{ display:none;}
+}
+
+@media (min-width:1400px){
+.mobile_form{height:10px;
+padding: 10px 5px;
+float: left;
+font-family: "OpenSansLight";
+font-size: 14px;
+border: 1px solid #CCC;
+box-shadow: 0px 1px 1px #DDD inset, 0px 1px 0px #FFF;
+border-radius: 3px; width:150px; margin-left:2px; border:1px solid #d0d0d0;}
+
+ .mobile_form2{height:10px;
+padding: 10px 5px;
+float: left;
+font-family: "OpenSansLight";
+font-size: 14px;
+box-shadow: 0px 1px 1px #DDD inset, 0px 1px 0px #FFF;
+box-shadow:none;
+ width:325px; border:none;  border:1px solid #d0d0d0;}
+ .mobile_menu{ display:none;}
+ 
+ #footer_box{ width:960px;}
+ #footer2_box{ width:960px;}
+ #bottom_content{ width:960px;}
+ #bottom_contentleft{ width:460px;}
+ #bottom_contentright{ width:460px;}
+ #topbar_content{width:960px;}
+ #logo{ width:150px;}
+ #head_search{ width:450px; display:block;}
+ #menu1{ display:block;}
+ 
+ #content{ width:960px;}
+ #content_boxleft{ width:200px; display:block;}
+ #content_boxright{ width:760px;}
+ #rightcontent{ width:100%;}
+ .right_imgbox{ width:110px;}
+ 
+ .right_textbox{max-width:350px; margin-left:15px;}
+ .right_textbox2{ width:200px;}
+ .clinic img{width:50px;}
+ .appointment{width:500px; background:#ccc;}
+ #content_righthead{ display:block;}
+ 
+ .time{float:right; max-width:220px;}
+ #services_left{ width:350px;}
+ #services_right{ width:350px; margin-left:20px;}
+ .appointment_table{width:380px; margin-left:70px;}
+ .appointment_date{height:25px; width:40%;}
+ .appointment_date2{ height:25px; width:20%; float:right;}
+   .search_form{ width:400px;}
+   .input_box{ margin-left:10px;}
+   .mobile_menu3{ display:none;}
+}

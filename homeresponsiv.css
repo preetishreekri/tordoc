@@ -1,0 +1,155 @@
+@media (min-width:200px) and (max-width:450px) {
+.table1{ height:320px; background:#5d82e4; padding-top:20px; padding-bottom:20px;}
+#logo_box{width:60%; height:auto; float:left; margin-left:20%; margin-top:0px;}
+#menubar{width:50%; float:none; margin:auto; padding-bottom:15px; margin-top:20px;}
+#topbar{ padding-bottom:15px;}
+#container_content{width:98%; margin-left:1%;}
+.form-wrapper {width:100%;}
+.form-wrapper #search {width:96%; height:15px;}
+.form-wrapper #submit {width:100%;}
+
+.form_box{ width:98%; height:auto; float:left; background:#b2c4f4; padding:1%;}
+.form_box2{ width:98%; height:auto; float:left; background:#b2c4f4; padding:1%; margin-left:0px;}
+.form_box3{ width:98%; height:auto; float:left; background:#b2c4f4; padding:1%;}
+.mobile_form{height:15px;
+padding: 10px 5px;
+float: left;
+font-family: "OpenSansLight";
+font-size: 14px;
+box-shadow: 0px 1px 1px #DDD inset, 0px 1px 0px #FFF;
+box-shadow:none;
+border-radius: 3px; width:96%; border:none; border:1px solid #3d61aa;}
+
+#footer{position:static; bottom:0px;}
+.imgbox{width:100%;}
+.contentbox{width:100%;}
+.rightcontentbox{width:100%; float:left;}
+.appointment_table{width:100%; height: auto; float: left;}
+.destop_table{ display:none;}
+.mobile_table{ display:block;}
+.mobile_menu{ display:block; position:absolute; z-index:999; top:10px; left:10px;}
+.mobile_menu2{ display:none;}
+.appointment_table{ display:none;}
+#left_container{ margin-left:0px; background:#5e83e4;}
+.r-tabs .r-tabs-panel {width:100%;}
+.submit{ display:block;}
+.search2{ display:none;}
+#footer_left{ display:none;}
+
+}
+	
+@media (min-width:450px) and (max-width:850px){
+.table1{ height:320px; background:#5d82e4; padding-top:30px; padding-bottom:50px;}
+#logo_box{width:50%; height:auto; float:left; margin-left:25%; margin-top:0px;}
+#menubar{width:50%; padding-bottom:15px; float:none; margin:auto; margin-top:20px;}
+#topbar{ padding-bottom:15px;}
+#container_content{width:98%; margin-left:1%;}
+.form-wrapper {width:100%;}
+.form-wrapper #search {width:96%; height:15px;}
+.form-wrapper #submit {width:100%;}
+
+.form_box{ width:98%; height:auto; float:left; background:#b2c4f4; padding:1%;}
+.form_box2{ width:98%; height:auto; float:left; background:#b2c4f4; padding:1%; margin-left:0px;}
+.form_box3{ width:98%; height:auto; float:left; background:#b2c4f4; padding:1%;}
+.mobile_form{height:15px;
+padding: 10px 5px;
+float: left;
+font-family: "OpenSansLight";
+font-size: 14px;
+box-shadow: 0px 1px 1px #DDD inset, 0px 1px 0px #FFF;
+box-shadow:none;
+border-radius: 3px; width:94%; border:none; border:1px solid #3d61aa;}
+.mobile_menu{ display:block; position:absolute; z-index:999; top:10px; left:10px;}
+.mobile_menu2{ display:none;}
+#footer{position:static; bottom:0px;}
+.imgbox{width:15%;}
+.contentbox{width:84%;}
+.rightcontentbox{width:50%; float:left;}
+.appointment_table{width:60%; height: auto; float: left; margin-left:10%;}
+
+.appointment_table{ display:none;}
+#left_container{ margin-left:0px; background:#5e83e4;}
+.r-tabs .r-tabs-panel {width:100%;}
+.submit{ display:block;}
+.search2{ display:none;}
+}
+
+
+@media (min-width:851px) and (max-width:1400px) {
+.table1{ height:510px;}
+#logo_box{width:30%; height:auto; float:left; margin-left:27%; margin-top:45px;}
+#menubar{width:290px; margin-top:15px; float: right;}
+#topbar{ padding-bottom:0px;}
+#container_content{width:70%; background:url(images/contentbg.png) no-repeat center; height:300px; background-size:auto 100%;}
+.form-wrapper {width:100%;}
+.form-wrapper #search {width:430px; height:10px;}
+.form-wrapper #submit {width: 150px;}
+
+.form_box{ width:204px; height:auto; float:left; background:#b2c4f4; padding:2px;}
+.form_box2{ width:204px; height:auto; float:left; background:#b2c4f4; padding:2px; margin-left:5px;}
+.form_box3{ width:430px; height:auto; float:left; background:#b2c4f4; padding:2px;}
+.mobile_form{height:10px;
+padding: 10px 5px;
+float: left;
+font-family: "OpenSansLight";
+font-size: 14px;
+box-shadow: 0px 1px 1px #DDD inset, 0px 1px 0px #FFF;
+box-shadow:none;
+border-radius: 3px; width:94%; border:none; border:1px solid #3d61aa;}
+.mobile_form:focus{}
+.mobile_menu{ display:none;}
+.mobile_menu2{ display:block;}
+.mobile_menu2 a{ text-decoration:none; color:#696868; font-weight:bold; color:#000;}
+.mobile_menu2 a:hover{ color:#000;}
+#footer{position:absolute; bottom:0px;}
+.imgbox{width:15%;}
+.contentbox{width:84%;}
+.rightcontentbox{width:27%; float: right;}
+.appointment_table{width:75%; height: auto; float: left;}
+.destop_table{ display:block;}
+.mobile_table{ display:none;}
+.appointment_table{ display:block;}
+#left_container{ margin-left:15%;}
+.r-tabs .r-tabs-panel {width:520px;}
+.submit{ display:none;}
+.search2{ display:block;}
+}
+
+@media (min-width:1400px){
+.table1{ height:850px;}
+#logo_box{width:30%; height:auto; float:left; margin-left:32%; margin-top:45px;}
+#menubar{width:290px; margin-top:15px;float: right;}
+#topbar{ padding-bottom:0px;}
+#container_content{width:60%; background:url(images/contentbg.png) no-repeat center; height:300px; background-size:auto 100%;}
+.form-wrapper {width:100%;}
+.form-wrapper #search {width:430px; margin-left:2px; height:10px;}
+.form-wrapper #submit {width: 150px;}
+
+.form_box{ width:204px; height:auto; float:left; background:#b2c4f4; padding:2px;}
+.form_box2{ width:204px; height:auto; float:left; background:#b2c4f4; padding:2px; margin-left:5px;}
+.form_box3{ width:430px; height:auto; float:left; background:#b2c4f4; padding:2px;}
+.mobile_form{height:10px;
+padding: 10px 5px;
+float: left;
+font-family: "OpenSansLight";
+font-size: 14px;
+border: 1px solid #CCC;
+box-shadow: 0px 1px 1px #DDD inset, 0px 1px 0px #FFF;
+border-radius: 3px; width:188px; margin-left:2px; border:1px solid #3d61aa;}
+.mobile_form:focus{ }
+.mobile_menu{ display:none;}
+.mobile_menu2{ display:block;}
+.mobile_menu2 a{ text-decoration:none; color:#696868; font-weight:bold; color:#000;}
+.mobile_menu2 a:hover{ color:#000;}
+#footer{position:absolute; bottom:0px;}
+.imgbox{width:15%;}
+.contentbox{width:84%;}
+.rightcontentbox{width:27%; float: right;}
+.appointment_table{width:75%; height: auto; float: left;}
+
+.appointment_table{ display:block;}
+#left_container{ margin-left:23%;}
+.r-tabs .r-tabs-panel {width:520px;}
+.submit{ display:none;}
+.search2{ display:block;}
+}

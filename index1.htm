@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<title>Untitled Document</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="responsiv.css" rel="stylesheet" type="text/css" />
+
+<!------------------------------------menu---------------------------->	
+		<link type="text/css" rel="stylesheet" href="css3/jquery.mmenu.css" />
+	
+			
+		<script type="text/javascript" src="js/jquery-v1.7.1.js"></script>
+		<script type="text/javascript" src="js/jquery-hover-effect.js"></script>
+		<script type="text/javascript" src="js/jquery.mmenu.js"></script>
+		<script type="text/javascript">
+			$(function() {
+
+				var pos 	= 'mm-top mm-right mm-bottom',
+					zpos	= 'mm-front mm-next';
+
+				var $html 	= $('html'),
+					$menu	= $('nav#menu'),
+					$both	= $html.add( $menu );
+
+				$menu.mmenu();
+
+				//	Add the position-classnames onChange
+				$('input[name="pos"]').change(function() {
+					$both.removeClass( pos ).addClass( 'mm-' + this.value );
+				});
+				$('input[name="zpos"]').change(function() {
+					$both.removeClass( zpos ).addClass( 'mm-' + this.value );
+				});
+			});
+		</script>
+<!---------------menu end-------------->
+</head>
+
+<body id="body_img">
+<!--------------------menu----------->
+<nav id="menu">
+		<ul>
+				<li><a href="index.htm">Home</a></li>
+				<li><a href="massage.htm">Massage</a></li>
+				<li><a href="galland.htm">Galland</a></li>
+				<li><a href="appointment.htm">Appointment</a></li>
+		</ul>
+</nav>
+  <div id="topbar">
+            <div id="topbar_content">
+				<div class="mobile_menu">
+						<a href="#menu"><img src="images/index.png"  /></a>	
+				</div>
+                <div id="logo">
+                   <img src="images/logo.png"  style="width:100%;"/>
+                </div>
+                <div id="menubar">
+                    <div class="menu" style="border-bottom:1px solid #45a8de;">
+                        Home
+                    </div>
+                   
+                     <div class="menu">
+                       What is this service?
+                    </div>
+                    <div class="menu">
+                        Login
+                    </div>
+                     <div class="menu">
+                       Sign Up
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+      
+        <div id="container">
+				<table class="table1">
+					<tr>
+						<td>
+								<div id="container_content">
+									<div id="left_container" style="margin-top:0px;">
+								<h1>Find Your Doctor All Over India</h1>
+								<div id="horizontalTab">
+								<ul>
+									<li><a href="#tab-1"><img src="images/special.png" style="height: 35px;float: left; margin-top: -5px; margin-right: 5px;" />Speciality</a></li>
+									<li><a href="#tab-2"><img src="images/doctor.png" style="height: 35px;float: left; margin-top: -5px;margin-right: 5px;" />Doctor</a></li>
+									<li><a href="#tab-3"><img src="images/clinic.png" style="height: 35px;float: left; margin-top: -5px;margin-right: 5px;" />Clinic</a></li>
+									
+								</ul>
+							
+								<div id="tab-1">
+										<form class="form-wrapper">
+											<input type="text" placeholder="eg. Dentist,Gynecologist" class="mobile_form" required />
+											<input type="text" placeholder="eg. Vanivihar" required class="mobile_form"/>
+											<input type="submit" value="Search" id="submit" />
+										</form>
+								</div>
+								<div id="tab-2">
+									<form class="form-wrapper">
+											<input type="text" id="search" placeholder="eg. Dr. Aswini Kar" required />
+											<input type="submit" value="Search" id="submit" />
+										</form>
+								</div>
+								<div id="tab-3">
+									<form class="form-wrapper">
+											<input type="text" id="search" placeholder="eg. kar Clinic" required />
+											<input type="submit" value="Search " style="" id="submit" />
+										</form>
+								</div>
+						   
+					
+							 </div>
+								
+								<!-- jQuery with fallback to the 1.* for old IE -->
+						<!--[if lt IE 9]>
+							<script src="js/jquery-1.11.0.min.js"></script>
+						<![endif]-->
+						<!--[if gte IE 9]><!-->
+							<script src="js/jquery-2.1.0.min.js"></script>
+						<!--<![endif]-->
+					
+						<!-- Responsive Tabs JS -->
+						<script src="js/jquery.responsiveTabs.js" type="text/javascript"></script>
+					
+						<script type="text/javascript">
+							$(document).ready(function () {
+								$('#horizontalTab').responsiveTabs({
+									rotate: false,
+									startCollapsed: 'accordion',
+									collapsible: 'accordion',
+									setHash: true,
+									disabled: [3,4],
+									activate: function(e, tab) {
+										$('.info').html('Tab <strong>' + tab.id + '</strong> activated!');
+									},
+									activateState: function(e, state) {
+										//console.log(state);
+										$('.info').html('Switched from <strong>' + state.oldState + '</strong> state to <strong>' + state.newState + '</strong> state!');
+									}
+								});
+					
+								$('#start-rotation').on('click', function() {
+									$('#horizontalTab').responsiveTabs('active');
+								});
+								$('#stop-rotation').on('click', function() {
+									$('#horizontalTab').responsiveTabs('stopRotation');
+								});
+								$('#start-rotation').on('click', function() {
+									$('#horizontalTab').responsiveTabs('active');
+								});
+								$('.select-tab').on('click', function() {
+									$('#horizontalTab').responsiveTabs('activate', $(this).val());
+								});
+					
+							});
+						</script>
+							</div>
+						
+							   
+								</div>
+						<td>
+					</tr>
+			</table>
+        </div>
+	
+	
+	<div id="footer">
+	    
+	</div>
+    </body>
+</html>

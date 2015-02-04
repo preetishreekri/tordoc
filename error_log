@@ -1,0 +1,22 @@
+[02-Feb-2015 09:18:58 America/New_York] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) in /home/tordoc/public_html/function.php on line 3
+[02-Feb-2015 09:18:58 America/New_York] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/tordoc/public_html/function.php on line 4
+[03-Feb-2015 00:36:54 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/tordoc/public_html/doctorview.php on line 12
+[03-Feb-2015 04:40:56 America/New_York] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 133437441 bytes) in /home/tordoc/public_html/doctorview.php on line 492
+[03-Feb-2015 04:42:19 America/New_York] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 133437441 bytes) in /home/tordoc/public_html/doctorview.php on line 492
+[03-Feb-2015 05:00:21 America/New_York] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 133437441 bytes) in /home/tordoc/public_html/doctorview.php on line 492
+[03-Feb-2015 05:03:13 America/New_York] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/tordoc/public_html/doctorview.php on line 487
+[03-Feb-2015 05:11:44 America/New_York] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/tordoc/public_html/doctorview.php on line 487
+[03-Feb-2015 05:11:44 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/tordoc/public_html/doctorview.php on line 410
+[03-Feb-2015 05:12:24 America/New_York] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/tordoc/public_html/doctorview.php on line 486
+[03-Feb-2015 05:17:50 America/New_York] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 133437441 bytes) in /home/tordoc/public_html/doctorview.php on line 503
+[03-Feb-2015 05:50:21 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tordoc/public_html/doctorview.php on line 491
+[03-Feb-2015 05:50:21 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tordoc/public_html/doctorview.php on line 491
+[03-Feb-2015 05:50:21 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tordoc/public_html/doctorview.php on line 491
+[03-Feb-2015 05:50:21 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tordoc/public_html/doctorview.php on line 491
+[03-Feb-2015 05:50:21 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tordoc/public_html/doctorview.php on line 491
+[03-Feb-2015 05:50:21 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tordoc/public_html/doctorview.php on line 491
+[03-Feb-2015 05:56:23 America/New_York] PHP Fatal error:  Call to undefined function mysl_error() in /home/tordoc/public_html/doctorview.php on line 490
+[03-Feb-2015 05:56:42 America/New_York] PHP Fatal error:  Call to undefined function mysl_error() in /home/tordoc/public_html/doctorview.php on line 490
+[03-Feb-2015 05:56:49 America/New_York] PHP Fatal error:  Call to undefined function mysl_error() in /home/tordoc/public_html/doctorview.php on line 490
+[03-Feb-2015 05:59:05 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/tordoc/public_html/doctorview.php on line 24
+[03-Feb-2015 05:59:05 America/New_York] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tordoc/public_html/doctorview.php on line 410
